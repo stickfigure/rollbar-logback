@@ -3,6 +3,14 @@ Rollbar Logback
 
 [![Build Status](https://travis-ci.org/tapstream/rollbar-logback.svg?branch=master)](https://travis-ci.org/tapstream/rollbar-logback)
 
+This is a fork of Tapstream's rollbar-logback fork, which seems to have some official blessing by virtue of being
+linked to from Rollbar's website. Unfortunately it hasn't been pushed into Maven Central, thus this fork. There are
+no code changes in this fork, only pom.xml changes to the groupId and version. The original java package structure
+(com.tapstream) has been preserved, even though it differs from the new groupId (com.voodoodyne.rollbar-logback). If Tapstream ever
+publishes their artifact, use it instead.
+
+-----
+
 This is a fork of the ahaid's [Rollbar Logback Appender](https://github.com/ahaid/rollbar-logback) created on
 July 27th, 2014 for use with the error aggregation service [Rollbar](https://rollbar.com/). You will need a Rollbar
 account: sign up for an account [here](https://rollbar.com/signup/).
